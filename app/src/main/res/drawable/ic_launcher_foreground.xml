@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center group within 66dp safe zone (21dp margin on each side) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Shield / Hexagon base outline -->
+        <path
+            android:fillColor="#1A38B8F8"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="2.5"
+            android:pathData="M54,26 L78,38 L78,66 L54,82 L30,66 L30,38 Z" />
+            
+        <!-- Telecom Transmission Tower -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M54,34 L43,74 M54,34 L65,74 M46,63 L62,63 M49,52 L59,52 M46,74 L62,74" />
+
+        <!-- Cross bracing -->
+        <path
+            android:strokeColor="#93C5FD"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M49,52 L62,63 M59,52 L46,63 M46,63 L62,74 M62,63 L46,74" />
+
+        <!-- Tower Antenna Beacon Tip -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M54,30 A2,2 0 1,0 54,34 A2,2 0 1,0 54,30 Z" />
+
+        <!-- Radio wave arcs -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M46,31 A10,10 0 0,0 46,41 M62,31 A10,10 0 0,1 62,41" />
+
+        <!-- Gear / Maintenance Accent bottom right -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M64,68 L66,66 L68,67 L69,65 L71,66 L72,64 L74,65 L73,63 L75,63 L74,61 L76,60 L74,59 L75,57 L73,57 L74,55 L72,56 L71,54 L69,55 L68,53 L66,54 L64,52 L64,68 Z" />
+    </group>
+</vector>

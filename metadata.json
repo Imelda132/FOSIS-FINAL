@@ -1,0 +1,6 @@
+{
+  "name": "FOSIS Admin",
+  "description": "Sistem Utama FOSIS (Field Operation Support & Information System) untuk Field Engineer, Administrasi, Troubleshoot, Maintenance, KPI, Geolokasi, dan Ekspor PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
